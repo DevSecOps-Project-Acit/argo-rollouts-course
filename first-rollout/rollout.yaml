@@ -3,7 +3,7 @@ kind: Rollout
 metadata:
   name: simple-color-app
 spec:
-  replicas: 5
+  replicas: 8
   selector:
     matchLabels:
       app: simple-color-app
